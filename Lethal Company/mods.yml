@@ -1,0 +1,1210 @@
+- manifestVersion: 1
+  name: BepInEx-BepInExPack
+  authorName: BepInEx
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/
+  displayName: BepInExPack
+  description: BepInEx pack for Mono Unity games. Preconfigured and ready to use.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies: []
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 5
+    minor: 4
+    patch: 2100
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/BepInEx-BepInExPack/5.4.2100/icon.png
+- manifestVersion: 1
+  name: BunyaPineTree-ModelReplacementAPI
+  authorName: BunyaPineTree
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/BunyaPineTree/ModelReplacementAPI/
+  displayName: ModelReplacementAPI
+  description: API to simplify model replacement
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 3
+    patch: 6
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/BunyaPineTree-ModelReplacementAPI/2.3.6/icon.png
+- manifestVersion: 1
+  name: merchant-RyanGosling_DriveJacket
+  authorName: merchant
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/merchant/RyanGosling_DriveJacket/
+  displayName: RyanGosling_DriveJacket
+  description: Replaces the default playermodel
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - BunyaPineTree-ModelReplacementAPI-2.0.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/merchant-RyanGosling_DriveJacket/1.1.1/icon.png
+- manifestVersion: 1
+  name: x753-More_Suits
+  authorName: x753
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/x753/More_Suits/
+  displayName: More_Suits
+  description: Adds more suits to choose from, and can be used as a library to
+    load your own suits!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 4
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/x753-More_Suits/1.4.1/icon.png
+- manifestVersion: 1
+  name: TeamClark-SCP_Foundation_Suit
+  authorName: TeamClark
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/TeamClark/SCP_Foundation_Suit/
+  displayName: SCP_Foundation_Suit
+  description: Adds an SCP Facility Guard suit to the game. Requires the More
+    Suits mod to appear.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.1
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/TeamClark-SCP_Foundation_Suit/1.1.0/icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedItemSlotCore
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedItemSlotCore/
+  displayName: ReservedItemSlotCore
+  description: The core mod for all ReservedItemSlot mods. Adds functionality for
+    my ReservedItemSlot mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 12
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedItemSlotCore/1.8.12/icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedFlashlightSlot
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedFlashlightSlot/
+  displayName: ReservedFlashlightSlot
+  description: Gives a free, dedicated Flashlight slot on the right side of your
+    screen. Can be toggled with [F] to activate the Flashlight at anytime.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - FlipMods-ReservedItemSlotCore-1.8.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedFlashlightSlot/1.6.1/icon.png
+- manifestVersion: 1
+  name: FlipMods-ReservedWalkieSlot
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ReservedWalkieSlot/
+  displayName: ReservedWalkieSlot
+  description: Gives a free, dedicated Walkie slot on the right side of your
+    screen. You can press [X] to activate and speak into the Walkie at anytime.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - FlipMods-ReservedItemSlotCore-1.8.9
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 6
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ReservedWalkieSlot/1.6.0/icon.png
+- manifestVersion: 1
+  name: FlipMods-ObjectVolumeController
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/ObjectVolumeController/
+  displayName: ObjectVolumeController
+  description: Allows adjusting the volume on the media objects, such as
+    television, boombox, and record player, by pressing the [-] and [+] keys.
+    Can configure the default volumes for each device!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 4
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-ObjectVolumeController/1.0.4/icon.png
+- manifestVersion: 1
+  name: femboytv-LethalPaintings
+  authorName: femboytv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/LethalPaintings/
+  displayName: LethalPaintings
+  description: COMPATIBLE WITH v45. Allows for editing of paintings
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/femboytv-LethalPaintings/1.2.0/icon.png
+- manifestVersion: 1
+  name: femboytv-LethalPosters
+  authorName: femboytv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/LethalPosters/
+  displayName: LethalPosters
+  description: COMPATIBLE WITH v45. Allows for editing of posters inside of the ship
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/femboytv-LethalPosters/1.2.0/icon.png
+- manifestVersion: 1
+  name: femboytv-FemboysAndFirearms
+  authorName: femboytv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/FemboysAndFirearms/
+  displayName: FemboysAndFirearms
+  description: COMPATIBLE WITH v45. Adds 32 randomly changing Femboys & Firearms
+    posters and paintings
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - femboytv-LethalPosters-1.2.0
+    - femboytv-LethalPaintings-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/femboytv-FemboysAndFirearms/1.2.1/icon.png
+- manifestVersion: 1
+  name: femboytv-BoykisserPosters
+  authorName: femboytv
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/femboytv/BoykisserPosters/
+  displayName: BoykisserPosters
+  description: COMPATIBLE WITH v45. Adds 6 randomly changing Boykisser posters and paintings
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - femboytv-LethalPosters-1.2.0
+    - femboytv-LethalPaintings-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/femboytv-BoykisserPosters/1.2.1/icon.png
+- manifestVersion: 1
+  name: Rattenbonkers-TVLoader
+  authorName: Rattenbonkers
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rattenbonkers/TVLoader/
+  displayName: TVLoader
+  description: Allows players to add custom videos to the Television.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Rattenbonkers-TVLoader/1.1.1/icon.png
+- manifestVersion: 1
+  name: rag-beeble
+  authorName: rag
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/rag/beeble/
+  displayName: beeble
+  description: adds a lot of little images on the posters and the paintings NOW
+    INCLUDING TV VIDEOS
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - femboytv-LethalPosters-1.2.0
+    - femboytv-LethalPaintings-1.2.0
+    - Rattenbonkers-TVLoader-1.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/rag-beeble/2.0.0/icon.png
+- manifestVersion: 1
+  name: Hexnet111-SuitSaver
+  authorName: Hexnet111
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hexnet111/SuitSaver/
+  displayName: SuitSaver
+  description: A plugin for saving your last used suit. (Compatible with v47)
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 4
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Hexnet111-SuitSaver/1.1.4/icon.png
+- manifestVersion: 1
+  name: Sligili-HDLethalCompany
+  authorName: Sligili
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/HDLethalCompany/
+  displayName: HDLethalCompany
+  description: Additional graphics settings such as resolution, anti-aliasing, fog
+    quality etc.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 6
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Sligili-HDLethalCompany/1.5.6/icon.png
+- manifestVersion: 1
+  name: anormaltwig-LateCompany
+  authorName: anormaltwig
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/
+  displayName: LateCompany
+  description: A mod to allow players to join after the game starts.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 10
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/anormaltwig-LateCompany/1.0.10/icon.png
+- manifestVersion: 1
+  name: ViViKo-AmongUsSuits
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/AmongUsSuits/
+  displayName: AmongUsSuits
+  description: Adds several amongus suits
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.3
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/ViViKo-AmongUsSuits/1.0.2/icon.png
+- manifestVersion: 1
+  name: Krevace-Omni_Bracken
+  authorName: Krevace
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Krevace/Omni_Bracken/
+  displayName: Omni_Bracken
+  description: Replaces the Bracken with Omni-Man - among other things. Lots of
+    flavor and customization options.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 3
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Krevace-Omni_Bracken/1.0.3/icon.png
+- manifestVersion: 1
+  name: zo0my-AmogusModels
+  authorName: zo0my
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/zo0my/AmogusModels/
+  displayName: AmogusModels
+  description: Changes playermodels to among us crewmates
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/zo0my-AmogusModels/1.1.0/icon.png
+- manifestVersion: 1
+  name: Giltong-LethalCompanyDRP
+  authorName: Giltong
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Giltong/LethalCompanyDRP/
+  displayName: LethalCompanyDRP
+  description: Discord Rich Presence for Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 6
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Giltong-LethalCompanyDRP/1.3.6/icon.png
+- manifestVersion: 1
+  name: matsuura-HealthMetrics
+  authorName: matsuura
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/matsuura/HealthMetrics/
+  displayName: HealthMetrics
+  description: Add a simple health counter on your HUD
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/matsuura-HealthMetrics/1.0.2/icon.png
+- manifestVersion: 1
+  name: ManiaBania-1000_Quota_Stare
+  authorName: ManiaBania
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ManiaBania/1000_Quota_Stare/
+  displayName: 1000_Quota_Stare
+  description: Adds the 1000 quota stare we all love to the game. Requires the
+    More Suits mod to appear.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.2
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/ManiaBania-1000_Quota_Stare/1.0.0/icon.png
+- manifestVersion: 1
+  name: RickArg-Helmet_Cameras
+  authorName: RickArg
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/RickArg/Helmet_Cameras/
+  displayName: Helmet_Cameras
+  description: For monitoring first person cameras on player's helmets. For best
+    "Camera Man" experience.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 1
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/RickArg-Helmet_Cameras/2.1.5/icon.png
+- manifestVersion: 1
+  name: notnotnotswipez-MoreCompany
+  authorName: notnotnotswipez
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/
+  displayName: MoreCompany
+  description: A stable lobby player count expansion mod. With cosmetics!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 7
+    patch: 4
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/notnotnotswipez-MoreCompany/1.7.4/icon.png
+- manifestVersion: 1
+  name: HGG-JigglePhysicsPlugin
+  authorName: HGG
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/HGG/JigglePhysicsPlugin/
+  displayName: JigglePhysicsPlugin
+  description: Dependency for adding jiggle physics to cosmetics. Please read the
+    README for a tutorial and the CHANGELOG for updates!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/HGG-JigglePhysicsPlugin/1.1.1/icon.png
+- manifestVersion: 1
+  name: Sai-SaiCosmetics
+  authorName: Sai
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sai/SaiCosmetics/
+  displayName: SaiCosmetics
+  description: Adds a few cosmetics to MoreCompany. Will be updated regularly
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - notnotnotswipez-MoreCompany-1.5.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Sai-SaiCosmetics/1.1.0/icon.png
+- manifestVersion: 1
+  name: Kats-Some_Suits
+  authorName: Kats
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Kats/Some_Suits/
+  displayName: Some_Suits
+  description: Three fun new suits to run around in!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.4.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 6
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Kats-Some_Suits/1.0.6/icon.png
+- manifestVersion: 1
+  name: Crab_imitation-Reptilian_Suit
+  authorName: Crab_imitation
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Crab_imitation/Reptilian_Suit/
+  displayName: Reptilian_Suit
+  description: Adds a glow in the dark crocodile themed suit.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Crab_imitation-Reptilian_Suit/1.0.1/icon.png
+- manifestVersion: 1
+  name: happyfrosty-FrostySuits2
+  authorName: happyfrosty
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/happyfrosty/FrostySuits2/
+  displayName: FrostySuits2
+  description: happy frosty happy suits 2
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.0
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 9
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/happyfrosty-FrostySuits2/1.0.9/icon.png
+- manifestVersion: 1
+  name: happyfrosty-FrostySuits
+  authorName: happyfrosty
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/happyfrosty/FrostySuits/
+  displayName: FrostySuits
+  description: "JOSH HUTCHERSON + PETER + BRIAN GRIFFIN UPDATE! Over a dozen suit
+    skins, with more on the way! Join our server to suggest new skins:
+    https://discord.gg/shrek"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.0
+    - Verity-TooManySuits-1.0.4
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 1
+    patch: 9
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/happyfrosty-FrostySuits/1.1.9/icon.png
+- manifestVersion: 1
+  name: ViViKo-ViViKoCosmetics
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/ViViKoCosmetics/
+  displayName: ViViKoCosmetics
+  description: Adds all of ViViKo's cosmetics. More soon.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.4.1
+    - ViViKo-MoreMaterials-1.3.0
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/ViViKo-ViViKoCosmetics/1.5.0/icon.png
+- manifestVersion: 1
+  name: fonnymunkey-SimpleHats
+  authorName: fonnymunkey
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/fonnymunkey/SimpleHats/
+  displayName: SimpleHats
+  description: SimpleHats MoreCompany Cosmetic Pack
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - notnotnotswipez-MoreCompany-1.7.2
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/fonnymunkey-SimpleHats/1.0.0/icon.png
+- manifestVersion: 1
+  name: Mhz-MoreHead
+  authorName: Mhz
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Mhz/MoreHead/
+  displayName: MoreHead
+  description: Simple cosmetics, joy for you.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - notnotnotswipez-MoreCompany-1.7.4
+    - HGG-JigglePhysicsPlugin-1.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Mhz-MoreHead/1.2.5/icon.png
+- manifestVersion: 1
+  name: EliteMasterEric-WackyCosmetics
+  authorName: EliteMasterEric
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/EliteMasterEric/WackyCosmetics/
+  displayName: WackyCosmetics
+  description: A cosmetics addon for MoreCompany.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - notnotnotswipez-MoreCompany-1.5.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/EliteMasterEric-WackyCosmetics/2.0.0/icon.png
+- manifestVersion: 1
+  name: Ozone-Runtime_Netcode_Patcher
+  authorName: Ozone
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Ozone/Runtime_Netcode_Patcher/
+  displayName: Runtime_Netcode_Patcher
+  description: Patches Netcode RPC methods during runtime utilizing Harmony
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 2
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Ozone-Runtime_Netcode_Patcher/0.2.5/icon.png
+- manifestVersion: 1
+  name: GhostbustingTrio-CustomFunSuits
+  authorName: GhostbustingTrio
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/GhostbustingTrio/CustomFunSuits/
+  displayName: CustomFunSuits
+  description: Adds a selection of fun suits
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - x753-More_Suits-1.3.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 2
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/GhostbustingTrio-CustomFunSuits/1.8.2/icon.png
+- manifestVersion: 1
+  name: FlipMods-TooManyEmotes
+  authorName: FlipMods
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/FlipMods/TooManyEmotes/
+  displayName: TooManyEmotes
+  description: Adds over 100 new emotes! Emote wheel included! Also implements a
+    system for purchasing them on the store, masked enemies can emote, and much
+    more!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 8
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/FlipMods-TooManyEmotes/1.8.0/icon.png
+- manifestVersion: 1
+  name: Sligili-More_Emotes
+  authorName: Sligili
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/
+  displayName: More_Emotes
+  description: "[v49/v45] Adds even more emotes"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Ozone-Runtime_Netcode_Patcher-0.2.5
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 3
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Sligili-More_Emotes/1.3.3/icon.png
+- manifestVersion: 1
+  name: ExioMadeThis-Ahegao_Suit
+  authorName: ExioMadeThis
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ExioMadeThis/Ahegao_Suit/
+  displayName: Ahegao_Suit
+  description: Adds a scuffed ahegao suit.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - x753-More_Suits-1.3.2
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/ExioMadeThis-Ahegao_Suit/1.0.0/icon.png
+- manifestVersion: 1
+  name: Verity-TooManySuits
+  authorName: Verity
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Verity/TooManySuits/
+  displayName: TooManySuits
+  description: More Suits Addon which adds pages to the suit rack.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - x753-More_Suits-1.4.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Verity-TooManySuits/1.0.5/icon.png
+- manifestVersion: 1
+  name: ViViKo-MoreMaterials
+  authorName: ViViKo
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/ViViKo/MoreMaterials/
+  displayName: MoreMaterials
+  description: More Suits Addon which adds custom materials to be used by other suit mods.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - x753-More_Suits-1.4.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 3
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/ViViKo-MoreMaterials/1.3.1/icon.png
+- manifestVersion: 1
+  name: Hypick-TooManyCosmetics
+  authorName: Hypick
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Hypick/TooManyCosmetics/
+  displayName: TooManyCosmetics
+  description: "[v49] 200+ Emotes | 100+ Suits | TOO MUCH cosmetics for
+    MoreCompany / AdvancedCompany"
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - ViViKo-MoreMaterials-1.3.1
+    - notnotnotswipez-MoreCompany-1.7.4
+    - x753-More_Suits-1.4.1
+    - Verity-TooManySuits-1.0.5
+    - Hexnet111-SuitSaver-1.1.4
+    - Sligili-More_Emotes-1.3.3
+    - FlipMods-TooManyEmotes-1.8.0
+    - EliteMasterEric-WackyCosmetics-2.0.0
+    - Mhz-MoreHead-1.2.5
+    - fonnymunkey-SimpleHats-1.0.0
+    - ViViKo-ViViKoCosmetics-1.5.0
+    - happyfrosty-FrostySuits-1.1.9
+    - happyfrosty-FrostySuits2-1.0.9
+    - Crab_imitation-Reptilian_Suit-1.0.1
+    - ExioMadeThis-Ahegao_Suit-1.0.0
+    - Kats-Some_Suits-1.0.6
+    - GhostbustingTrio-CustomFunSuits-1.8.2
+    - Sai-SaiCosmetics-1.1.0
+    - Ozone-Runtime_Netcode_Patcher-0.2.5
+    - HGG-JigglePhysicsPlugin-1.1.1
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 2
+    minor: 6
+    patch: 6
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Hypick-TooManyCosmetics/2.6.6/icon.png
+- manifestVersion: 1
+  name: NotAtomicBomb-TerminalApi
+  authorName: NotAtomicBomb
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/TerminalApi/
+  displayName: TerminalApi
+  description: A Terminal Api
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 1
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/NotAtomicBomb-TerminalApi/1.5.1/icon.png
+- manifestVersion: 1
+  name: NotAtomicBomb-Terminal_Clock
+  authorName: NotAtomicBomb
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/NotAtomicBomb/Terminal_Clock/
+  displayName: Terminal_Clock
+  description: A Terminal Clock
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - NotAtomicBomb-TerminalApi-1.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/NotAtomicBomb-Terminal_Clock/1.0.5/icon.png
+- manifestVersion: 1
+  name: Rune580-LethalCompany_InputUtils
+  authorName: Rune580
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Rune580/LethalCompany_InputUtils/
+  displayName: LethalCompany_InputUtils
+  description: Utilities for creating InputActions and providing an (opinionated)
+    improved UI.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 0
+    minor: 5
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Rune580-LethalCompany_InputUtils/0.5.5/icon.png
+- manifestVersion: 1
+  name: Renegades-FlashlightToggle
+  authorName: Renegades
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Renegades/FlashlightToggle/
+  displayName: FlashlightToggle
+  description: Press F to toggle a flashlight in your inventory. CLIENT SIDE.
+    REBINDABLE IN-GAME
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - Rune580-LethalCompany_InputUtils-0.4.3
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Renegades-FlashlightToggle/1.5.0/icon.png
+- manifestVersion: 1
+  name: tinyhoot-ShipLoot
+  authorName: tinyhoot
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/tinyhoot/ShipLoot/
+  displayName: ShipLoot
+  description: Reliably shows the total value of all scrap in your ship.
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/tinyhoot-ShipLoot/1.0.0/icon.png
+- manifestVersion: 1
+  name: 2018-LC_API
+  authorName: "2018"
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/2018/LC_API/
+  displayName: LC_API
+  description: Multipurpose modding API for Lethal Company
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 3
+    minor: 4
+    patch: 5
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/2018-LC_API/3.4.5/icon.png
+- manifestVersion: 1
+  name: steven4547466-YoutubeBoombox
+  authorName: steven4547466
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/steven4547466/YoutubeBoombox/
+  displayName: YoutubeBoombox
+  description: Play any youtube video through the boombox! Syncs with all players
+    (that have the mod)!
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - 2018-LC_API-2.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 5
+    patch: 0
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/steven4547466-YoutubeBoombox/1.5.0/icon.png
+- manifestVersion: 1
+  name: Winfi4-winfi4YoutubeBoombox
+  authorName: Winfi4
+  websiteUrl: https://thunderstore.io/c/lethal-company/p/Winfi4/winfi4YoutubeBoombox/
+  displayName: winfi4YoutubeBoombox
+  description: Boombox songs from Youtube. Old version mod by Steven4547466
+  gameVersion: "0"
+  networkMode: both
+  packageType: other
+  installMode: managed
+  loaders: []
+  dependencies:
+    - BepInEx-BepInExPack-5.4.2100
+    - 2018-LC_API-2.2.0
+  incompatibilities: []
+  optionalDependencies: []
+  versionNumber:
+    major: 1
+    minor: 0
+    patch: 2
+  enabled: true
+  icon: C:/Users/makar/AppData/Roaming/Thunderstore Mod
+    Manager/DataFolder/LethalCompany/cache/Winfi4-winfi4YoutubeBoombox/1.0.2/icon.png
